@@ -1,0 +1,115 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+#topMenu {
+  background: #253b80;
+  font-size: 12px;
+  border: none;
+  min-height: 42px;
+  margin-bottom: 40px;
+}
+
+.container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.siu_menu {
+  padding-left: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(216, 52, 52);
+}
+
+.siu_menu > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.siu_menu > ul > li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.siu_menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 14px;
+}
+
+.h2txt {
+  font-weight: 700;
+  text-align: center;
+  color: #45b999;
+  text-shadow: 1px 4px 4px #b4dae0;
+  margin-top: 80px;
+}
+
+.result-block {
+  align-items: center;
+  width: 1170px;
+  position: absolute;
+  left: 380px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.student_input {
+  padding-right: 60px;
+  padding: left 60px;
+  border-radius: 6px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 0;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: inherit;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  position: absolute;
+  left: 560px;
+  top: 600px;
+}
+
+.change {
+  display: none;
+}
+
+.seat_no {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  position: absolute;
+  left: 560px;
+  top: 700px;
+}
+
+.download {
+  display: none;
+}
+
+.download > .down-btn > a {
+  position: absolute;
+  left: 900px;
+  top: 800px;
+}

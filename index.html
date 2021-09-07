@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam SIU</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid" id="topMenu"></div>
+      <div class="row">
+        <div class="col-10">
+          <a href="https://www.siu.edu.in"
+            ><img style="width: 55%" src="images/siu.png" alt="siu logo"
+          /></a>
+        </div>
+        <div class="col-2">
+          <img
+            style="width: 81%"
+            src="images/one-world-img.png"
+            alt="one world"
+          />
+        </div>
+      </div>
+    </header>
+
+    <! navbar----------------------------------------------------->
+    <nav class="siu_menu">
+      <ul>
+        <li>
+          <a href="file:///F:/Portfolio%20Websites/cow/index.html">RESULT</a>
+        </li>
+        <li>
+          <a
+            href="rslt/EXAMRULEBOOK-(WEBVERSION).pdf"
+            download="EXAMRULEBOOK"
+            target="_blank"
+            >EXAMINATION RULES</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <! main container----------------------------------------------->
+    <main>
+      <div class="result-block">
+        <h2 class="h2txt">RESULTS</h2>
+        <hr />
+      </div>
+      <div class="user-input">
+        <div class="col-6">
+          <p>Enter Your PRN</p>
+        </div>
+        <div class="col-6" style="display: flex">
+          <input type="number" id="prn_number" />
+          <button class="login" style="margin-left: 20px">Login</button>
+        </div>
+      </div>
+
+      <!seat number window>
+      <div class="change">
+        <div class="seat_no">
+          <div class="col-6">
+            <p>Enter Seat Number of Sem 6</p>
+          </div>
+          <div class="col-6">
+            <input type="number" id="seat_number" />
+            <button class="seat_no_view" style="margin-left: 20px">View</button>
+          </div>
+        </div>
+      </div>
+
+      <!download button>
+      <div class="download">
+        <div class="down-btn">
+          <a
+            href="rslt/siuexmrslt18030121097.pdf"
+            download="siuexmrslt18030121097.pdf"
+            ><button class="view">Download Your Result</button></a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
